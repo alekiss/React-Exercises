@@ -1,0 +1,17 @@
+.checklist {
+  margin-top: 50px;
+  background-color: var(--color-primary-variant);
+  padding: 20px;
+  min-height: 380px;
+  border-radius: 20px;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+}
+
+.list{
+    margin-top: 10px;
+    background-color: white;
+}

@@ -1,0 +1,33 @@
+.filter_container {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 600px;
+  min-height: 470px;
+  background-color: var(--color-primary-variant);
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.filter_search{
+  padding: 10px;
+  width: 500px;
+  height: 60px;
+  border: none;
+  border-radius: 5px;
+  color: var(--color-primary-variant);
+  font-size: 20px;
+}
+
+::placeholder{
+  color: var(--color-primary-variant);
+  font-size: 20px;
+}
+
+.filter_item{
+  color: #fff;
+  font-size: 20px;
+}
