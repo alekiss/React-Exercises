@@ -59,8 +59,9 @@ const ImageSlider = () => {
             <div className={slideIndex === index + 1 ? "slide active-anim" : "slide"} key={obj.id}>
                 <img src={obj.url}/>
             </div>
-    )
+            )
         )}
+        
         <button className="btn-slide prev" onClick={previousSlide}>
             <GrFormPrevious/>
         </button>

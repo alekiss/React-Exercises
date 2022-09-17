@@ -9,9 +9,10 @@ const Form = ({addItemList}) => {
 
   const todoHandle = (text) => {
     const listObj = {text: text, id: id}
-    setId(id + 1)
+    setId(prevState => prevState + 1)
     addItemList(listObj)
     document.getElementById("filled-basic").value=null;
+    setText(null)
   }
 
   return (

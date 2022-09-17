@@ -31,8 +31,8 @@ const DisplayList = () => {
     <div className="display-list">
         <h1>Brasileirão Série A</h1>
         <ul>
-            {times.map((item, index) => {
-                return(<li key={index}>{item}</li>)
+            {times.map((item) => {
+                return(<li key={item}>{item}</li>)
             })}
         </ul>
     </div>

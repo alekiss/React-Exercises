@@ -7,11 +7,11 @@ const SimpleCounter = () => {
   const [count, setCount] = useState(0)
 
   const handlePlus = () => {
-    setCount(count + 1)
+    setCount(prevState => prevState + 1)
   }
 
   const handleMinus = () => {
-    setCount(count - 1)
+    setCount(prevState => prevState - 1)
   }
 
   return (
